@@ -13,8 +13,8 @@ export default function Home() {
           произведения, Рэлея и степенным методом.
         </p> */}
         <p className="text-lg md:text-xl font-mono  bg-gradient-to-b from-blue-50 to-indigo-100 text-gray-500 p-4 rounded-lg leading-relaxed mb-12 shadow-lg">
-          Используйте наш сервис для освоения алгоритма интерполирования функции
-          на основе использования нелокальных кубических сплайнов.
+          Используйте наш сервис для освоения алгоритма численного
+          дифференцирования.
         </p>
         {/* <p className="text-lg md:text-xl font-mono bg-gray-900 text-green-400 p-4 rounded-lg leading-relaxed mb-12 shadow-lg">
           Используйте наш сервис для решения уравнений методами скалярного
