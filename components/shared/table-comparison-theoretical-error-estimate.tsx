@@ -98,7 +98,9 @@ export const TableComparisonTheoreticalErrorEstimate: React.FC<Props> = ({
                     {" "}
                     |E| &le;{" "}
                     {Math.max(
-                      ...(theoreticalError ?? []).filter((x) => x !== null)
+                      ...(theoreticalError ?? [])
+                        .filter((x) => x !== null)
+                        .slice(1, -1)
                     )}
                   </p>
                 </TableCell>
@@ -108,7 +110,9 @@ export const TableComparisonTheoreticalErrorEstimate: React.FC<Props> = ({
                     &Delta; y{" "}
                     <sup>&apos; {isDouble && <span>&apos;</span>}</sup>={" "}
                     {Math.max(
-                      ...(compareSolutions ?? []).filter((x) => x !== null)
+                      ...(compareSolutions ?? [])
+                        .filter((x) => x !== null)
+                        .slice(1, -1)
                     )}
                   </p>
                 </TableCell>
